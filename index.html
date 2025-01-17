@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextGenPlays - Gaming Channel</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #121212;
+            color: #fff;
+        }
+        header {
+            background: linear-gradient(90deg, #ff416c, #ff4b2b);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 5rem 2rem;
+            background: url('https://via.placeholder.com/1920x600?text=NextGenPlays+Banner') no-repeat center center/cover;
+        }
+        .hero h2 {
+            font-size: 3rem;
+            margin: 0 0 1rem;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+        .content {
+            padding: 2rem;
+            text-align: center;
+        }
+        .content h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .videos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            padding: 2rem 0;
+        }
+        .video {
+            background: #222;
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .video img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .video h3 {
+            margin: 0.5rem 0;
+        }
+        footer {
+            background: #000;
+            color: #888;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        footer a {
+            color: #ff416c;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>NextGenPlays</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#videos">Videos</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Welcome to NextGenPlays</h2>
+        <p>Gaming content like you've never seen before!</p>
+    </section>
+    <main class="content">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At NextGenPlays, we deliver top-notch gaming content, walkthroughs, and live streams featuring the latest games and classics alike.</p>
+        </section>
+        <section id="videos">
+            <h2>Latest Videos</h2>
+            <div class="videos">
+                <div class="video">
+                    <img src="https://via.placeholder.com/300x200?text=Video+1" alt="Video 1">
+                    <h3>Epic Gameplay Moments</h3>
+                    <p>Check out the most exciting gameplay clips from our channel.</p>
+                </div>
+                <div class="video">
+                    <img src="https://via.placeholder.com/300x200?text=Video+2" alt="Video 2">
+                    <h3>Top Game Reviews</h3>
+                    <p>Our honest take on the latest games you love.</p>
+                </div>
+                <div class="video">
+                    <img src="https://via.placeholder.com/300x200?text=Video+3" alt="Video 3">
+                    <h3>Live Stream Highlights</h3>
+                    <p>Relive the best moments from our live streams.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or suggestions? <a href="mailto:nextgenplays@example.com">Email us!</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 NextGenPlays. All rights reserved. Follow us on <a href="#">social media</a>!</p>
+    </footer>
+</body>
+</html>
